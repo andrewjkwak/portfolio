@@ -17,7 +17,7 @@ const Letter = () => (
       <br />
       <p>I am a Fullstack Developer, living in Brooklyn, NY.</p>
       <p>Obsessed with writing clean and beautiful code.</p>
-      <p>If you want to chit-chat, grab a coffee, rob a bank, hit me up.</p>
+      <p>If you want to grab a coffee, hit me up :)</p>
       <p style={{ float: "right" }}>- Andrew <span style={{ textDecoration: "underline red wavy" }}>Kwak</span></p>
     </Typing>
 
