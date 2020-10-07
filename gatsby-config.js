@@ -1,10 +1,21 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Bentham`,
+            variants: [`400`, `serif`]
+          }, 
+          {
+            family: `Overpass`,
+            variants: [`400`, `italic`]
+          }
+        ]
+      }
+    }
+  ],
 }
