@@ -5,7 +5,7 @@ title: Building My Portfolio With GatsbyJS
 description: I've always wanted to use GatsbyJS so when I decided to build my
   portfolio, I knew this would be the perfect opportunity to get started
 ---
-![Gatsby](/assets/gatsby.png "Gatsby")
+![Gatsby](/assets/gatsby.webp "Gatsby")
 
 ## Why Gatsby?
 
@@ -30,7 +30,5 @@ I wanted to create a blog to write about what I've been working on, what I'm lea
 #### Simplifies Development Process
 
 It really simplified the entire development process.  I've been able to finish most of the site in a single day.  A lot of the packages needed to build a site is built right into the framework, such as react-router and GraphQL, which gave me a few less things to worry about.  Also, hosting the site to Netlify was scarily easy.  All I had to do was push my code onto GitHub, connect Netlify to my Git repository, and deploy.  It's that simple.  As I push my changes onto GitHub, Netlify handles the rest since they offer continuous deployment that automatically triggers a new build.  
-
-
 
 Overall, I really enjoyed working with Gatsby.  I'll probably use it again in the future as there's just so many different use cases for it.
