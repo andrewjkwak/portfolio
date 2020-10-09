@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+});
+
 module.exports = {
   /* Your site config here */
   plugins: [
@@ -8,7 +12,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID,
       }
     },
     {
