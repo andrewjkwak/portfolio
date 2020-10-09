@@ -6,6 +6,13 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID,
+        head: true,
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/blog`,
