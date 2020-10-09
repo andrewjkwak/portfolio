@@ -8,7 +8,6 @@ const Container = styled.div`
   flex-direction: column;
   margin: 0;
   height: 98vh;
-  overflow: hidden;
   font-family: 'Overpass';
 `;
 
