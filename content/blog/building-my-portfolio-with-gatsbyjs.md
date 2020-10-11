@@ -5,7 +5,7 @@ title: Building My Portfolio With GatsbyJS
 description: I've always wanted to use GatsbyJS so when I decided to build my
   portfolio, I knew this would be the perfect opportunity to get started
 ---
-![Gatsby](/assets/gatsby.webp "Gatsby")
+![Gatsby](/assets/gatsby.jpg "Gatsby")
 
 ## Why Gatsby?
 
