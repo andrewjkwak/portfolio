@@ -1,18 +1,15 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${process.env.NODE_ENV}`
 });
 
 module.exports = {
-  /* Your site config here */
   plugins: [
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingId: process.env.GATSBY_GOOGLE_ANALYTICS_TRACKING_ID || "none",
+        trackingId: process.env.GA_ID,
+        head: true,
+        anonymize: true,
       }
     },
     {
@@ -36,6 +33,10 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
