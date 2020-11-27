@@ -20,18 +20,20 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Bentham`,
-            variants: [`400`, `serif`]
-          }, 
-          {
-            family: `Overpass`,
-            variants: [`400`, `italic`]
-          }
-        ]
+        fonts: {
+          google: [
+            {
+              family: `Bentham`,
+              variants: [`400`, `serif`]
+            },
+            {
+              family: `Overpass`,
+              variants: [`400`, `italic`]
+            }
+          ]
+        }
       }
     },
     `gatsby-plugin-styled-components`,
